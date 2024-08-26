@@ -17,7 +17,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|   `   |    |   ~   |------+------+------+------+------+------|
  * |   [  |   Z  |   X  |   C  |   D  |   V  |-------|    |-------|   K  |   H  |   ,  |   .  |   -  |   ]  |
  * `-----------------------------------------'       /     \      '-----------------------------------------'
- *                   | LAlt | LGUI | LCTL |   Spc   /       \   Ent   | RAlt | RGUI | RCTL |
+ *                   | LCTL | LGUI | LAlt |   Spc   /       \   Ent   | RAlt | RGUI | RCTL |
  *                   |      |      |      | LShift /         \  NAVI  |      |      |      |
  *                   '----------------------------'           '----------------------------'
  */
@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    KC_TAB, KC_Q, KC_W,    KC_F,    KC_P,       KC_B,                                    KC_J,      KC_L,            KC_U,    KC_Y,    KC_SCLN, KC_EQL,
   KC_BSPC, KC_A, KC_R,    KC_S,    KC_T,       KC_G,                                    KC_M,      KC_N,            KC_E,    KC_I,    KC_O,    KC_QUOT,
   KC_LBRC, KC_Z, KC_X,    KC_C,    KC_D,       KC_V,         KC_GRV,          KC_BSLS,  KC_K,      KC_H,            KC_COMM, KC_DOT, KC_SLSH, KC_RBRC,
-                       KC_LALT, KC_LGUI,    KC_LCTL, LSFT_T(KC_SPC), LT(_NAVI,KC_ENT), KC_RALT, KC_RGUI, KC_RCTL
+                       KC_LCTL, KC_LGUI,    KC_LALT, LSFT_T(KC_SPC), LT(_NAVI,KC_ENT), KC_RALT, KC_RGUI, KC_RCTL
 ),
 /* NAVI
  * ,-----------------------------------------.                    ,-----------------------------------------.
